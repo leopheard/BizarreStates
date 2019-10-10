@@ -22,7 +22,7 @@ def get_playable_podcast1(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "http://static.libsyn.com/p/assets/1/6/c/3/16c3ee25d92c7d95/BizarreStates2.jpg",
         }
         subjects.append(item)
     return subjects
@@ -51,7 +51,7 @@ def get_playable_podcast(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "",
+                'thumbnail': "http://static.libsyn.com/p/assets/1/6/c/3/16c3ee25d92c7d95/BizarreStates2.jpg",
         }
         subjects.append(item)
     return subjects
